@@ -1,5 +1,6 @@
 VERSION 0.6
-FROM public.ecr.aws/docker/library/rust:alpine3.17
+FROM public.ecr.aws/docker/library/rust:1-buster
+# FROM public.ecr.aws/docker/library/rust:alpine3.17
 COPY . .
 
 ci:
